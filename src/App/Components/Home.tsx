@@ -55,7 +55,7 @@ export default function Home() {
           <button className="btn_contact_me" onClick={() => {scrolling("contacts")}}>CONTACT ME</button>
         </div>
         <div className="logotype_container">
-          <img src="../img/front-end.png" alt="" className='img' />
+          <img src="./img/front-end.png" alt="" className='img' />
         </div>
         <div className="specialization_container">
           <div className="my_specialization">MY SPECIALIZATION</div>
@@ -63,7 +63,7 @@ export default function Home() {
           <div className="specialization_text">My name is Thomas Alford, i am 24 years old.I have been working as a frontend developer for over a year and have quite a lot of experience in this field. But despite all this, I'm not going to stop there.</div>
           <a className="learn_more_container" onClick={() => {scrolling("stack")}} >
             <div className="learn_more">Learn more</div>
-            <img src="../../img/down_arrow.png" alt="" className="icon" />
+            <img src="./img/down_arrow.png" alt="" className="icon" />
           </a>
         </div>
       </div>

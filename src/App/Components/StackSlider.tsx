@@ -31,12 +31,12 @@ export default function StackSlider() {
     const slides = 
 
     <div className="slider_container" id={offset}>
-        <Tool icon={'../../img/js.png'} title={'JavaScript'} color={'yellow'} level={'lvl_90'} />
-        <Tool icon={'../../img/react.png'} title={'React'} color={'light-blue'} level={'lvl_82'} />
-        <Tool icon={'../../img/redux.png'} title={'Redux'} color={'dark-purple'} level={'lvl_82'} />
-        <Tool icon={'../../img/ts.png'} title={'TypeScript'}  color={'dark-blue'}level={'lvl_74'} />
-        <Tool icon={'../../img/bootstrap.png'} title={'Bootstrap'} color={'light-purple'} id={'bp'} level={'lvl_78'} />
-        <Tool icon={'../../img/sass.png'} title={'SASS/LESS'} color={'pink'} level={'lvl_82'} />
+        <Tool icon={'./img/js.png'} title={'JavaScript'} color={'yellow'} level={'lvl_90'} />
+        <Tool icon={'./img/react.png'} title={'React'} color={'light-blue'} level={'lvl_82'} />
+        <Tool icon={'./img/redux.png'} title={'Redux'} color={'dark-purple'} level={'lvl_82'} />
+        <Tool icon={'./img/ts.png'} title={'TypeScript'}  color={'dark-blue'}level={'lvl_74'} />
+        <Tool icon={'./img/bootstrap.png'} title={'Bootstrap'} color={'light-purple'} id={'bp'} level={'lvl_78'} />
+        <Tool icon={'./img/sass.png'} title={'SASS/LESS'} color={'pink'} level={'lvl_82'} />
     </div>
 
   return (
